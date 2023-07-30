@@ -10,10 +10,12 @@
 :root {
     --bgOrange: #e84949;
   }
-.warpper{
-    height: 100vh;
+#wrapper{
+    
+    
     overflow-y: auto;
     overflow-x: hidden;
+    position: relative;
 }
 .container{
     width: 1200px;
@@ -432,6 +434,13 @@ a{
     margin-left:120px;
     background-image: url(./images/projects/Project4.png);
   }
+  #others{
+    text-align: center;
+    font-size: large;
+    text-decoration: underline blue;
+    margin-bottom: 10px;
+  }
+ 
 
   @media (max-width:1300px) {
     .container{
@@ -523,6 +532,8 @@ a{
     .project-card:hover .project-content {
       scale: 0.55;
     }
+
+
 
     .skills-container{
         flex-direction: column;
